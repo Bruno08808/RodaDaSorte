@@ -1,0 +1,14 @@
+{
+  "defaultWheel": {
+    "segments": [
+      { "text": "mochila", "emoji": "", "color": "#1DBFA5" },
+      { "text": "Porta-chaves", "emoji": "", "color": "#0052CC" },
+      { "text": "Caneta", "emoji": "", "color": "#1DBFA5" },
+      { "text": "Voucher", "emoji": "❤️", "color": "#0052CC" },
+      { "text": "Mochila", "emoji": "", "color": "#1DBFA5" },
+      { "text": "Porta-chaves", "emoji": "", "color": "#0052CC" },
+      { "text": "Caneta", "emoji": "", "color": "#1DBFA5" },
+      { "text": "Voucher", "emoji": "❤️", "color": "#0052CC" }
+    ]
+  }
+}

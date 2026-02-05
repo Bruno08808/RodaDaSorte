@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roda da Sorte - Coruche Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="Logotipocoruchedigital.png" alt="Coruche Digital" class="logo">
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>Roda da Sorte</h1>
+            <button class="theme-toggle" onclick="toggleTheme()">Modo escuro</button>
+        </div>
+
+        <div class="main-content">
+            <div class="wheel-container">
+                <canvas id="wheelCanvas"></canvas>
+                <button class="spin-btn" id="spinBtn" onclick="spinWheel()">GO!</button>
+            </div>
+
+            <div class="sidebar">
+                <div class="section">
+                    <h2>Segmentos</h2>
+                    <div class="segments-input">
+                        <input type="number" id="numSegments" min="2" max="50" value="4" placeholder="Qtd">
+                        <button class="add-btn" onclick="addSegments()">Atualizar</button>
+                    </div>
+                    <div class="segment-list" id="segmentList"></div>
+                </div>
+
+                <div class="section">
+                    <h2>Histórico</h2>
+                    <div class="history" id="history">
+                        <div class="empty-message">Nenhum resultado</div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Gestão de Rodas</h2>
+                    <div class="tabs" id="wheelTabs"></div>
+                    <button class="new-wheel-btn" onclick="createNewWheel()">+ Nova Roda</button>
+                    <button class="delete-wheel-btn" id="deleteWheelBtn" onclick="deleteCurrentWheel()">Eliminar Roda Atual</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
