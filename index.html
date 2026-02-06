@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="logo-container">
-        <img src="Logotipocoruchedigital.png" alt="Coruche Digital" class="logo">
-    </div>
-
     <div class="container">
         <div class="header">
-            <h1>Roda da Sorte</h1>
-            <button class="theme-toggle" onclick="toggleTheme()">Modo escuro</button>
+            <div class="header-left">
+                <img src="Logotipocoruchedigital.png" alt="Coruche Digital" class="logo">
+                <h1>Roda da Sorte</h1>
+            </div>
+            <button class="theme-toggle" onclick="toggleTheme()">🌙 Modo escuro</button>
         </div>
 
         <div class="main-content">
@@ -27,7 +26,7 @@
                 <div class="section">
                     <h2>Segmentos</h2>
                     <div class="segments-input">
-                        <input type="number" id="numSegments" min="2" max="50" value="4" placeholder="Qtd">
+                        <input type="number" id="numSegments" min="2" max="50" value="12" placeholder="Qtd">
                         <button class="add-btn" onclick="addSegments()">Atualizar</button>
                     </div>
                     <div class="segment-list" id="segmentList"></div>
@@ -44,7 +43,7 @@
                     <h2>Gestão de Rodas</h2>
                     <div class="tabs" id="wheelTabs"></div>
                     <button class="new-wheel-btn" onclick="createNewWheel()">+ Nova Roda</button>
-                    <button class="delete-wheel-btn" id="deleteWheelBtn" onclick="deleteCurrentWheel()">Eliminar Roda Atual</button>
+                    <button class="delete-wheel-btn" id="deleteWheelBtn" onclick="deleteCurrentWheel()">🗑️ Eliminar Roda Atual</button>
                 </div>
             </div>
         </div>

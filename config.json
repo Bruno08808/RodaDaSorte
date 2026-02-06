@@ -1,14 +1,78 @@
 {
   "defaultWheel": {
     "segments": [
-      { "text": "mochila", "emoji": "", "color": "#1DBFA5" },
-      { "text": "Porta-chaves", "emoji": "", "color": "#0052CC" },
-      { "text": "Caneta", "emoji": "", "color": "#1DBFA5" },
-      { "text": "Voucher", "emoji": "❤️", "color": "#0052CC" },
-      { "text": "Mochila", "emoji": "", "color": "#1DBFA5" },
-      { "text": "Porta-chaves", "emoji": "", "color": "#0052CC" },
-      { "text": "Caneta", "emoji": "", "color": "#1DBFA5" },
-      { "text": "Voucher", "emoji": "❤️", "color": "#0052CC" }
+      {
+        "text": "Brinde",
+        "emoji": "🎁",
+        "emojiSize": 40,
+        "color": "#FF6B6B"
+      },
+      {
+        "text": "Voucher",
+        "emoji": "❤️",
+        "emojiSize": 35,
+        "color": "#1DBFA5"
+      },
+      {
+        "text": "Voucher",
+        "emoji": "❤️",
+        "emojiSize": 35,
+        "color": "#0052CC"
+      },
+      {
+        "text": "Voucher",
+        "emoji": "❤️",
+        "emojiSize": 35,
+        "color": "#26E0B9"
+      },
+      {
+        "text": "Brinde",
+        "emoji": "🎁",
+        "emojiSize": 40,
+        "color": "#FFA500"
+      },
+      {
+        "text": "Voucher",
+        "emoji": "❤️",
+        "emojiSize": 35,
+        "color": "#003D99"
+      },
+      {
+        "text": "Voucher",
+        "emoji": "❤️",
+        "emojiSize": 35,
+        "color": "#1AC8A8"
+      },
+      {
+        "text": "Voucher",
+        "emoji": "❤️",
+        "emojiSize": 35,
+        "color": "#0040A8"
+      },
+      {
+        "text": "Brinde",
+        "emoji": "🎁",
+        "emojiSize": 40,
+        "color": "#FF1493"
+      },
+      {
+        "text": "Voucher",
+        "emoji": "❤️",
+        "emojiSize": 35,
+        "color": "#1DBFA5"
+      },
+      {
+        "text": "Voucher",
+        "emoji": "❤️",
+        "emojiSize": 35,
+        "color": "#0052CC"
+      },
+      {
+        "text": "Voucher",
+        "emoji": "❤️",
+        "emojiSize": 35,
+        "color": "#26E0B9"
+      }
     ]
   }
 }
