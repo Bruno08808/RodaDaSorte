@@ -2,8 +2,8 @@
   "defaultWheel": {
     "segments": [
       {
-        "text": "Brinde",
-        "emoji": "🎁",
+        "text": "Caneta",
+        "emoji": "🖊️",
         "emojiSize": 40,
         "color": "#FF2874"
       },
@@ -26,8 +26,8 @@
         "color": "#26E0B9"
       },
       {
-        "text": "Brinde",
-        "emoji": "🎁",
+        "text": "Mochila",
+        "emoji": "🎒",
         "emojiSize": 40,
         "color": "#FF2874"
       },
@@ -50,8 +50,8 @@
         "color": "#0040A8"
       },
       {
-        "text": "Brinde",
-        "emoji": "🎁",
+        "text": "Porta-Chaves",
+        "emoji": "🔑",
         "emojiSize": 40,
         "color": "#FF2874"
       },

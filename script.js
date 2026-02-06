@@ -26,15 +26,15 @@ async function init() {
         console.error('Erro ao carregar config.json:', error);
         // Fallback se o JSON não carregar
         defaultSegments = [
-            { text: 'Brinde', emoji: '🎁', emojiSize: 40, color: '#FF2874' },
+            { text: 'Caneta', emoji: '🖊️', emojiSize: 40, color: '#FF2874' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#1DBFA5' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#0052CC' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#26E0B9' },
-            { text: 'Brinde', emoji: '🎁', emojiSize: 40, color: '#FF2874' },
+            { text: 'Mochila', emoji: '🎒', emojiSize: 40, color: '#FF2874' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#003D99' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#1AC8A8' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#0040A8' },
-            { text: 'Brinde', emoji: '🎁', emojiSize: 40, color: '#FF2874' },
+            { text: 'Porta-Chaves', emoji: '🔑', emojiSize: 40, color: '#FF2874' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#1DBFA5' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#0052CC' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#26E0B9' }
@@ -374,7 +374,7 @@ function toggleTheme() {
     document.body.classList.toggle('dark-mode');
     const btn = document.querySelector('.theme-toggle');
     if (btn) {
-        btn.textContent = document.body.classList.contains('dark-mode') ? '☀️ Modo claro' : '🌙 Modo escuro';
+        btn.textContent = document.body.classList.contains('dark-mode') ? 'Modo claro' : 'Modo escuro';
         localStorage.setItem('corucheWheel_Theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
     }
 }
@@ -385,7 +385,7 @@ window.addEventListener('load', () => {
     if (savedTheme === 'dark') {
         document.body.classList.add('dark-mode');
         const btn = document.querySelector('.theme-toggle');
-        if (btn) btn.textContent = '☀️ Modo claro';
+        if (btn) btn.textContent = 'Modo claro';
     }
 });
 
