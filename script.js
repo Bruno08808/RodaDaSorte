@@ -26,15 +26,15 @@ async function init() {
         console.error('Erro ao carregar config.json:', error);
         // Fallback se o JSON não carregar
         defaultSegments = [
-            { text: 'Brinde', emoji: '🎁', emojiSize: 40, color: '#FF6B6B' },
+            { text: 'Brinde', emoji: '🎁', emojiSize: 40, color: '#ff2874' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#1DBFA5' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#0052CC' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#26E0B9' },
-            { text: 'Brinde', emoji: '🎁', emojiSize: 40, color: '#FFA500' },
+            { text: 'Brinde', emoji: '🎁', emojiSize: 40, color: '#ff2874' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#003D99' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#1AC8A8' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#0040A8' },
-            { text: 'Brinde', emoji: '🎁', emojiSize: 40, color: '#FF1493' },
+            { text: 'Brinde', emoji: '🎁', emojiSize: 40, color: '#ff2874' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#1DBFA5' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#0052CC' },
             { text: 'Voucher', emoji: '❤️', emojiSize: 35, color: '#26E0B9' }
